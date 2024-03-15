@@ -3,6 +3,7 @@ from tkinter import Tk, Label, Entry, Button, StringVar, filedialog, ttk, Menu, 
 from PIL import ImageTk, Image
 import io
 
+
 # Dictionaries to store strings in different languages
 strings = {
     "English": {
@@ -118,7 +119,6 @@ def create_context_menu():
 
 root = Tk()
 root.title(strings["English"]["title"])
-root.iconbitmap('myicon.ico')
 root.geometry("390x500")
 root.minsize(390, 500)
 root.resizable(True, True)  # Allow window resizing
