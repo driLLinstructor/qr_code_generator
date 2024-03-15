@@ -118,6 +118,7 @@ def create_context_menu():
 
 root = Tk()
 root.title(strings["English"]["title"])
+root.iconbitmap('myicon.ico')
 root.geometry("390x500")
 root.minsize(390, 500)
 root.resizable(True, True)  # Allow window resizing
